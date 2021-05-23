@@ -1,0 +1,220 @@
+body{    
+    background-image: url("../arquivos/telas/turismo-1.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;    
+}  
+
+#corpo{  
+    margin: 20 auto;
+    width: 1150px;
+    height: 610px;        
+    background-color: rgba(47, 42, 42, 0.6);
+    /* background: rgba(47, 42, 42, 0.89); */
+    border: 4px solid #C08282;
+}
+
+#barracima{    
+    margin: 0 auto;
+    height: 90px;
+    width: 550px;
+    text-align: center;
+    background: rgb(47, 42, 42);
+    border: 2px solid #DF6161;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.473);
+
+}
+
+#txt_barracima{
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: 300;
+    padding-top: 5px;
+    font-size: 35px;
+    line-height: 2px;
+    color: #C08282;  
+}
+
+#corpo_form{
+    position: 0 auto;
+    margin-top: 45px;
+    margin-left: 120px;
+    background-color: rgba(47, 42, 42, 0.84);
+    width: 900px;
+    height: 370px; 
+
+}
+
+#campo_nresponsavel{
+    color: #DF6161;
+    font-size: 25px;   
+}
+
+#nome_responsavel{    
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 300px;
+    width: 350px;
+    height: 30px;
+    
+} 
+
+#cpf_responsavel{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 135px;
+    width: 200px;
+    height: 30px;
+}
+
+#numero_turistas{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 190px;
+    width: 78px;
+    height: 30px;    
+}
+
+.textos{
+    font-family: "Geneva";
+    position: absolute;
+    
+}
+
+#txt1{
+    margin-top: 80px;
+    margin-left: 65;
+}
+
+#txt2{
+    margin-top: 135px;
+    margin-left: 84;
+}
+
+#txt3{
+    margin-top: 190px;
+    margin-left: 94;
+}
+
+#botoesradial{
+    position: absolute;
+    color: #DF6161;
+    font-size: 20px;   
+    margin-left: 610px;
+    margin-top: 150px; 
+
+    
+    
+
+}
+
+.radio{    
+    margin-bottom: 8px;
+    margin-left: 10px;
+    -ms-transform: scale(1.35); /* IE 9 */
+    -webkit-transform: scale(1.35); /* Chrome, Safari, Opera */
+    transform: scale(1.35);
+    cursor:pointer;
+
+    
+}
+
+.labels{
+    margin-left: 4px;
+}
+
+.bt{
+    padding: 12px 50px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 390px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 24px;
+
+    color: rgba(12, 11, 11, 0.795);
+    text-align: center;
+
+    background: #6B4F4F;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+
+}
+
+.bt:hover{
+    background-color: rgb(192, 93, 93);
+    box-shadow: 0 12px 16px 0 rgba(119, 73, 73, 0.603), 0 17px 50px 0 rgba(18, 13, 22, 0.19);
+}
+
+#bt-registrar{
+    margin-top: 20px;
+    float: right;
+    margin-right: 130px;
+    display: block;
+    padding: 10 25; 
+    font-size: 16;
+    cursor: pointer;
+    text-decoration: none; 
+    background: rgba(182, 104, 104, 0.678);   
+    border: 2px inset #000000;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+#bt-registrar:hover{
+    background-color: rgb(192, 93, 93);
+    box-shadow: 0 12px 16px 0 rgba(119, 73, 73, 0.603), 0 17px 50px 0 rgba(18, 13, 22, 0.19);
+}
+
+#bt-registrar:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#voltar{    
+    margin-top: 20px;
+    display: block;
+    padding: 10 25; 
+    font-size: 16;
+    cursor: pointer;
+    text-decoration: none; 
+    background: rgba(182, 104, 104, 0.678);   
+    border: 2px inset #000000;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 120px;
+}
+
+#voltar:hover{
+    background-color: rgb(192, 93, 93);
+    box-shadow: 0 12px 16px 0 rgba(119, 73, 73, 0.603), 0 17px 50px 0 rgba(18, 13, 22, 0.19);
+}
+
+#voltar:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+input{
+    border: 1px solid #DF6161;
+    border-radius: 4px;
+    background-color: rgba(119, 73, 73, 0.315);
+    font-size: 15px;;
+    color: beige;    
+}
+
+input:focus {
+    outline: none;
+    border: 3px solid rgba(199, 43, 43, 0.651);
+}
+
+.inputsFormulario{
+    padding-left: 7px;
+}
+
+.modal{
+    display: none;
+}

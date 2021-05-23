@@ -1,0 +1,249 @@
+body{
+    background-image: url("../arquivos/telas/turismo-1.png");  
+    background-size: cover;
+    background-repeat: no-repeat; 
+}  
+ 
+/*ESPACO DO CONTEUDO*/
+#corpo{  
+    position: fixed;
+    margin: 5 auto;
+    margin-left: 5px;
+    width: 1325px;    
+    height: 600px;
+    background: rgba(47, 42, 42, 0.89);    
+    border: 4px solid #C08282;      
+}
+/*-------------------------------------*/
+
+/*BARRA DE TITULO "LISTA DE EXCURSOES*/
+#barracima{    
+    margin: 0 auto;
+    height: 90px;
+    width: 550px;
+    text-align: center;
+    background: rgb(47, 42, 42);
+    border: 2px solid #DF6161;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.473);
+}
+
+#txt_barracima{/*TEXTO DA BARRA*/
+    font-family: "consolas",arial;
+    font-style: normal;
+    font-weight: normal;
+    padding-top: 5px;
+    font-size: 38px;
+    line-height: 2px;
+    color: #C08282;  
+}
+/*-------------------------------------*/
+
+/*DIV-TABELA*/
+/* #dvTabela{
+    margin-top: 30px;
+    overflow: scroll;
+    width: 1324px;
+    height: 416px;    
+    overflow-x: hidden;
+} */
+/*-------------------------------------*/
+
+table tbody,
+table thead {
+  display: block;
+}
+
+table tbody {
+    overflow: auto;
+    overflow-x: hidden;
+    height: 362px;    
+}
+
+/*TABELA DE EXCURSOES*/
+#tabela_excursoes{
+    position: fixed;
+    margin-top: 30px;
+    background-color: rgba(47, 42, 42, 0.315);     
+    margin-left: 15px; 
+    border-collapse: collapse;       
+}
+/*-------------------------------------*/
+
+/*BOTAO VER DA TABELA*/
+.bt_ver{    
+    border-radius: 6px;
+    text-decoration: none;    
+    padding: 4px 13px;
+    background: rgba(182, 104, 104, 0.678); 
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    cursor: pointer;;
+    color: rgba(12, 11, 11, 0.795);
+    text-align: center; 
+}
+
+.bt_ver:hover{
+    background-color: rgb(192, 93, 93);
+    box-shadow: 0 12px 16px 0 rgba(119, 73, 73, 0.603), 0 17px 50px 0 rgba(18, 13, 22, 0.19);
+}
+/*-------------------------------------*/
+
+/*BARRA DE TITULO DE CADA COLUNA DA TABELA*/
+th{
+    background-color: rgb(47, 42, 42);
+    padding: 9px 9;
+    border: #C08282;
+    box-sizing: border-box;
+    border: 2px solid rgba(223, 97, 97, 0.541);
+    color: #C08282;    
+}
+/*-------------------------------------*/
+
+/*CELULA DE CADA COLUNA DA TABELA*/
+td{
+    text-align: center;
+    background: none;
+    padding: 10px 0px;
+    color: white;
+    box-sizing: border-box;
+    border: 2px solid rgba(223, 97, 97, 0.541);
+}
+/*-------------------------------------*/
+
+/*BOTAO EDITAR*/
+#btEditar{
+    border-radius: 15px;
+    padding: 5px 7px;    
+    text-decoration: none;    
+    color: rgba(12, 11, 11, 0.795);
+    text-align: center;
+    background: rgb(238, 133, 73);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#btEditar:hover{
+    background-color: rgb(192, 93, 93);
+    box-shadow: 0 12px 16px 0 rgba(119, 73, 73, 0.603), 0 17px 50px 0 rgba(18, 13, 22, 0.19);
+}
+/*-------------------------------------*/
+
+/*BOTAO VOLTAR*/
+#btVoltar{
+    display: block;
+    padding: 10 25;
+    font-size: 16;
+    cursor: pointer;
+    text-decoration: none; 
+    background: rgba(182, 104, 104, 0.678);   
+    border: 2px inset #000000;
+    border-radius: 6px;
+    font-weight: bold; 
+    margin-top: 456px;
+    margin-left: 12px;
+} 
+
+#btVoltar:hover{
+    background-color: rgb(192, 93, 93);
+    box-shadow: 0 12px 16px 0 rgba(119, 73, 73, 0.603), 0 17px 50px 0 rgba(18, 13, 22, 0.19);
+}
+
+#btVoltar:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+/*-------------------------------------*/
+
+#n-turistas{
+    font-size: 15px;    
+}
+
+#cpf{
+    padding: 0px 50px;
+}
+
+#resp{
+    padding: 0px 59px;
+}
+
+.cpm{    
+    padding: 0px 48px;
+}
+
+#mt{    
+    padding: 0px 49.8px;    
+}
+
+.botoes{
+    border-left: none;
+    border-right: none; 
+}
+
+.c{
+    border-right: none; 
+}
+
+#nada{
+    background: rgba(47, 42, 42, -1);
+    border-top: none;
+    border-right: none;
+}
+
+
+
+
+#td-bt-editar{
+    padding: 8;
+}
+
+#tdNumTuristas{
+    width: 94px;
+    min-width: 94px;
+    max-width: 94px; 
+}
+
+#tdCodigoRegistro{
+    width: 87px;
+    min-width: 87px;
+    max-width: 87px;
+}
+
+#tdNomeResponsavel{
+    width: 239px;
+    min-width: 239px;
+    max-width: 239px;    
+}
+
+#tdCpf{
+    width: 134px;
+    min-width: 134px;
+    max-width: 134px;  
+}
+
+#tdTipoTransporte{
+    width: 129px;
+    min-width: 129px;
+    max-width: 129px; 
+}
+
+#tdChegada{
+    width: 117px;
+    min-width: 117px;
+    max-width: 117px; 
+}
+
+#tdPartida{
+    width: 107px;
+    min-width: 107px;
+    max-width: 107px; 
+}
+
+#tdMulta{
+    width: 97px;
+    min-width: 97px;
+    max-width: 97px; 
+}
+

@@ -1,0 +1,81 @@
+body{    
+    background-image: url("../arquivos/telas/turismo-1.png"); 
+    background-size: 1400px 665px;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+#main{   
+
+    position: absolute;
+    left: 270px;
+    top: 0px;    
+    height: 665px; width: 820px;
+    background-color: rgba(47,42,42,.89); 
+}
+#barracima{    
+    background: #F9CECE;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    height: 110px; width: 820px;
+}
+#logo{      
+    
+    margin-top: 9px;
+    margin-left: 24px;
+    height: 90px;
+    width: 550px;
+    text-align: center;
+    background: rgb(47, 42, 42);
+    border: 2px solid #DF6161;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.473);
+}
+
+
+#sis{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    padding-top: 18px;
+    font-size: 40px;
+    line-height: 2px;
+    color: #C08282;    
+}
+
+#bt_acessar_sistema{
+        position: absolute;
+        margin-left: 620px;
+        margin-top: -80px;
+
+        background: rgba(47, 42, 42, 1);
+        color: rgb(224, 119, 119);
+        padding: 15px;
+        border-radius: 25px;
+        
+}
+
+#textos{
+   width: 465px;
+   margin-left: 45px;
+   margin-top: 50px;
+   color: rgba(202,175,175, 0.89);
+
+}
+
+#img1{
+    position: absolute;
+    margin-left: 480px;
+    margin-top: 26px;
+
+    height: 170px;
+    width: 280px;
+}
+
+#img2{
+    position: absolute;
+    margin-left: 480px;
+    margin-top: 250px;
+
+    height: 170px;
+    width: 280px;
+}

@@ -1,0 +1,235 @@
+body{
+  background-image: url("../arquivos/telas/turismo-1.png");  
+  background-size: cover;
+  background-repeat: no-repeat; 
+}   
+
+#base{
+  margin: 15 auto;
+  background-color: rgba(47, 42, 42, 0.6);
+  height: 600px;
+  width: 1290px;
+}
+
+#titulo{
+  margin: 0 auto;
+  height: 75px;
+  width: 400px;
+  text-align: center;
+  background: rgb(47, 42, 42);
+  border: 2px solid #DF6161;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.473);
+}
+
+#txtTitulo{
+  margin-top: 36px;
+  font-family: "consolas",arial;
+  font-style: normal;
+  font-weight: normal;  
+  font-size: 39px;
+  line-height: 2px;
+  color: #C08282; 
+}
+
+#espacoBotoes{
+  /* background-color: orange; */
+  width: 250px;
+  height: 400px;
+  float: left;
+  margin-top: 50px;
+}
+
+#espacoConteudo{
+  margin-top: 50px;
+  background-color: rgba(47, 42, 42, 0.7);
+  float: right; 
+  width: 1000px;
+  height: 450px;
+  margin-right: 10px;
+}
+
+
+#conteudo1{
+  display: block;
+  /* background-color: yellow; */
+  height: 450px;
+  width: 1000px;
+}
+
+#conteudo2{
+  display: none;
+  /* background-color: blueviolet; */
+  height: 450px;
+  width: 1000px;
+}
+
+#tabelaRelatorio1{  
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 950px;
+  background-color: rgba(47, 42, 42, 0.315);
+  border-collapse: collapse;  
+}
+
+#tabelaRelatorio1 th{
+  background-color: rgb(47, 42, 42);
+  padding: 9px 9;
+  border: #C08282;
+  box-sizing: border-box;
+  border: 2px solid rgba(223, 97, 97, 0.541);
+  color: #C08282;  
+}
+
+#tabelaRelatorio1 td{
+  text-align: center;
+  background: none;
+  padding: 10px 0px;
+  color: white;
+  box-sizing: border-box;
+  border: 2px solid rgba(223, 97, 97, 0.541);
+}
+
+#barracima{    
+  margin: 0 auto;
+  height: 60px;
+  width: 500px;
+  text-align: center;
+  background: rgb(47, 42, 42);
+  border: 2px solid #DF6161;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.473);
+}
+
+#txt_barracima{
+  font-family: "consolas",arial;
+  font-style: normal;
+  font-weight: normal;  
+  font-size: 30px;
+  line-height: 2px;
+  color: #C08282;  
+}
+
+#barracima2{    
+  margin: 0 auto;
+  height: 60px;
+  width: 500px;
+  text-align: center;
+  background: rgb(47, 42, 42);
+  border: 2px solid #DF6161;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.473);
+}
+
+#txt_barracima2{
+  font-family: "consolas",arial;
+  font-style: normal;
+  font-weight: normal;  
+  font-size: 30px;
+  line-height: 2px;
+  color: #C08282;  
+}
+
+#tabelaRelatorio2{  
+  margin: 0 auto;
+  margin-top: 30px;  
+  background-color: rgba(47, 42, 42, 0.315);
+  border-collapse: collapse;  
+  width: 980px;
+}
+
+#tabelaRelatorio2 th{
+  background-color: rgb(47, 42, 42);
+  padding: 9px 9;
+  border: #C08282;
+  box-sizing: border-box;
+  border: 2px solid rgba(223, 97, 97, 0.541);
+  color: #C08282;  
+  font-size: 13px;
+}
+
+#tabelaRelatorio2 td{
+  text-align: center;
+  background: none;
+  padding: 10px 0px;
+  color: white;
+  box-sizing: border-box;
+  border: 2px solid rgba(223, 97, 97, 0.541);
+}
+
+#bt1{    
+    margin-top: 100px;
+    display: block;
+    padding: 10 25; 
+    font-size: 16;
+    cursor: pointer;
+    text-decoration: none; 
+    background: rgba(182, 104, 104, 0.678);   
+    border: 2px inset #000000;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+#bt1:hover{
+  background-color: rgb(192, 93, 93);
+  box-shadow: 0 12px 16px 0 rgba(119, 73, 73, 0.603), 0 17px 50px 0 rgba(18, 13, 22, 0.19);
+}
+
+#bt1:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#bt2{    
+  margin-top: 10px;
+  display: block;
+  padding: 10 9; 
+  font-size: 16;
+  cursor: pointer;
+  text-decoration: none; 
+  background: rgba(182, 104, 104, 0.678);   
+  border: 2px inset #000000;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+#bt2:hover{
+  background-color: rgb(192, 93, 93);
+  box-shadow: 0 12px 16px 0 rgba(119, 73, 73, 0.603), 0 17px 50px 0 rgba(18, 13, 22, 0.19);
+}
+
+#bt2:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#btVoltar{
+  display: block;
+    padding: 10 25;
+    font-size: 16;
+    cursor: pointer;
+    text-decoration: none; 
+    background: rgba(182, 104, 104, 0.678);   
+    border: 2px inset #000000;
+    border-radius: 6px;
+    font-weight: bold;
+  margin-left: 135px;
+  /* margin-left: 24px; 
+  margin-top: 10px; */
+}
+
+#btVoltar:hover{
+  background-color: rgb(192, 93, 93);
+  box-shadow: 0 12px 16px 0 rgba(119, 73, 73, 0.603), 0 17px 50px 0 rgba(18, 13, 22, 0.19);
+}
+
+#btVoltar:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+

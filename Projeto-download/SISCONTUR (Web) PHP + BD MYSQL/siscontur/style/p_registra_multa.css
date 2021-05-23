@@ -1,0 +1,156 @@
+body{
+    background-image: url("../arquivos/telas/turismo-1.png");  
+    background-size: cover;
+    background-repeat: no-repeat; 
+}  
+
+#base{
+    margin: 0 auto;
+    margin-top: -80px;
+    /* background-color: blue;  */
+    width: 1200px;
+    height: 400px;    
+}
+
+#tituloPagina{   
+    display: block;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 100px;
+    padding: 15px;
+    background: rgb(47, 42, 42);
+    border-top:  5px solid #C08282;
+    border-left: 5px solid #C08282;
+    border-right: 5px solid #C08282;
+    border-bottom: 4px solid #C08282;
+    box-sizing: border-box;   
+}
+
+#textoTituloPagina{    
+    font-family: "Consolas",arial;
+    font-style: normal;
+    font-weight: normal;
+    padding-top: 5px;
+    font-size: 38px;
+    line-height: 2px;
+    color: #C08282;     
+}
+
+#barraBusca{
+    margin: 0 auto;
+    width: 680px;
+    height: 29px;
+    font-size: 18px;
+}
+
+#barraBotaoBuscar{  
+    display: block;  
+    width: 450px; 
+    margin-left: 425px; 
+    margin-top: -48px;   
+}
+
+#texto{    
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+#textoBarra{    
+    width: 420px;
+    /* background-color:  rgba(47, 42, 42, 0.904); */
+    color: #DF6161;
+    border-radius: 6px;      
+}
+
+#inputBarraBuscar{
+    border-radius: 6px;  
+    padding-left: 8px;  
+    text-align: left;
+    background-color:  rgb(47, 42, 42);
+    font-size: 18px;
+    color: #DF6161;
+}
+
+#btBuscar{        
+    padding: 3 5;
+    font-size: 15;
+    cursor: pointer;
+    text-decoration: none; 
+    background: rgba(182, 104, 104, 0.678);   
+    border: 2px inset #000000;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+#btBuscar:hover{
+    background-color: rgb(192, 93, 93);
+    box-shadow: 0 10px 12px 0 rgba(119, 73, 73, 0.603), 0 14px 37px 0 rgba(18, 13, 22, 0.19);
+}
+
+#btBuscar:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#conteudo{
+    /* background-color: #3e8e41;   */  
+    background-color: rgba(47, 42, 42, 0.89);
+    width: 300px;
+    height: 200px;         
+    text-align: center; 
+    margin: 0 auto;
+    border: 3px solid #C08282;  
+    margin-top: 35px; 
+}
+
+#txtValorMulta{  
+    /* background-color: #DF6161;   */  
+    width:120px;
+    height: 50px;
+    float: left;
+    margin-left: 70px;
+    font-size: 20;
+    color: #C08282;
+}
+
+#conteudoValorMulta{ 
+    /* background-color: yellow;   */  
+    width:40px;
+    height: 50px;  
+    float: right; 
+    margin-right: 60px; 
+    font-size: 20;
+    color: #C08282;
+}
+
+#botao_voltar{ 
+    margin-left: 240px;
+    margin-top: 20px;
+    display: block;
+    padding: 10 25; 
+    font-size: 16;
+    cursor: pointer;
+    text-decoration: none; 
+    background: rgba(182, 104, 104, 0.678);   
+    border: 2px inset #000000;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+#botao_voltar:hover{
+    background-color: rgb(192, 93, 93);
+    box-shadow: 0 12px 16px 0 rgba(119, 73, 73, 0.603), 0 17px 50px 0 rgba(18, 13, 22, 0.19);
+}
+
+#botao_voltar:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+    
